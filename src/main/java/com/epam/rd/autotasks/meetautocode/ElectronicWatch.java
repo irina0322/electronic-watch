@@ -6,8 +6,6 @@ public class ElectronicWatch {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int seconds = scanner.nextInt();
-        //Comments
-        System.out.println("Comments:");
         int second = seconds % 60;
         int minute = (seconds /60) % 60;
         int hour = seconds/3600;
